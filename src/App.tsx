@@ -12,10 +12,7 @@ function App() {
     <>
       <Title></Title>
       <Container>
-        <Card></Card>
-        <Card></Card>
       </Container>
-      <Card></Card>
     </>
   )
 }
