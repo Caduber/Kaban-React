@@ -4,7 +4,7 @@ function Botap(){
     return (
         <>
         <p>Clique no botão!</p>
-        <button>Teste</button>
+        <button className='btn-'>Teste</button>
         </>
     )
 }
