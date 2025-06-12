@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import Card from '../Components/Card'
-import Container from '../Components/Container'
+import Card from './Components/Card'
+import Container from './Components/Container'
+import Header from './Components/Header'
 
 function App() {
-  //const [count, setCount] = useState(0)
-  let cor1 = "bg-red-100";
 
   return (
     <>
-    <div className='flex row-auto gap-2'>
+    <Header></Header>
+    <div className='flex row-auto gap-2 justify-center'>
     <Container>
         <Card tarefa='Dormir' conteudo='Arrumar a cama'></Card>
         <Card tarefa='Dormir' conteudo='Arrumar a cama'></Card>

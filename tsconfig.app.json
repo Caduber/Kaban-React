@@ -23,5 +23,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "Components/Card.tsx", "Components/Container.tsx"]
+  "include": ["src", "src/Components/Card.tsx", "src/Components/Container.tsx"]
 }
